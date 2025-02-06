@@ -15,7 +15,8 @@
 
 # Base cuDNN archive url as well as specific archives that should be excluded
 # from the final output.
-$root = "https://developer.download.nvidia.com/compute/redist/cudnn/"
+# $root = "https://developer.download.nvidia.com/compute/redist/cudnn/"
+$root = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/"
 $exclude = 
     "https://developer.download.nvidia.com/compute/redist/cudnn/v7.5.1/9.0_20190418/cudnn-9.0-windows7-x64-v7.5.1.10.zip",
     "https://developer.download.nvidia.com/compute/redist/cudnn/v7.5.1/9.0_20190418/cudnn-9.0-windows10-x64-v7.5.1.10.zip",
